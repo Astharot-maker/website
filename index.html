@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070707">
+<title>MIKAL NOVA — Creative Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader"><img src="logo.png"><div class="loadbar"><i></i></div><small>MIKAL NOVA / INITIALIZING <b>0%</b></small></div>
+<div class="grain"></div><canvas id="stars"></canvas><div class="cursor"></div><div class="cursor-ring"></div><div class="scrollbar"></div>
+
+<header id="top">
+  <a class="brand" href="#home"><img src="logo.png"><span>MIKAL <em>NOVA</em></span></a>
+  <nav>
+    <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="head-tools"><span class="status"><i></i> OPEN TO PROJECTS</span><button id="theme">◐</button><button id="hamb">☰</button></div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-grid"></div><div class="hero-glow"></div>
+  <div class="hero-copy reveal">
+    <div class="micro"><span>01</span><i></i> CREATIVE DEVELOPER / PPLG STUDENT</div>
+    <p class="hello">HELLO, I'M</p>
+    <h1>MIKAL<span class="stroke">.</span></h1>
+    <div class="alias">also known as <strong>MIKAL NOVA</strong></div>
+    <p class="typing"><span>I CREATE </span><b id="typed"></b><i>|</i></p>
+    <p class="intro">Saya membangun website, sistem sederhana, dan pengalaman digital dengan pendekatan yang rapi, modern, dan terus berkembang.</p>
+    <div class="actions"><a class="btn primary" href="#work">EXPLORE WORK <span>↗</span></a><a class="btn" href="#contact">CONTACT ME <span>→</span></a></div>
+    <div class="numbers"><div><b data-n="03">0</b><span>PROJECTS</span></div><div><b data-n="06">0</b><span>CORE SKILLS</span></div><div><b data-n="26">0</b><span>BUILD / 2026</span></div></div>
+  </div>
+  <div class="hero-art reveal">
+    <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+    <div class="identity-card tilt">
+      <div class="card-head"><span>MN / 001</span><span>EST. 2026</span></div>
+      <img src="logo.png" alt="Mikal Nova logo">
+      <div class="card-title">MIKAL<br><small>NOVA</small></div>
+      <div class="card-foot"><span>CODE</span><span>DESIGN</span><span>BUILD</span></div>
+    </div>
+    <div class="orbit-label o1">HTML / CSS</div><div class="orbit-label o2">PHP + MYSQL</div><div class="orbit-label o3">PYTHON</div>
+  </div>
+  <div class="scroll">SCROLL <span></span></div>
+</section>
+
+<section class="marquee"><div>WEB DEVELOPMENT <b>✦</b> DIGITAL DESIGN <b>✦</b> DATABASE <b>✦</b> CREATIVE CODE <b>✦</b> WEB DEVELOPMENT <b>✦</b> DIGITAL DESIGN <b>✦</b> DATABASE <b>✦</b></div></section>
+
+<section class="section" id="about">
+  <div class="section-head reveal"><small>02 / PROFILE</small><h2>THE MIND<br><span>BEHIND IT.</span></h2></div>
+  <div class="about">
+    <div class="about-copy reveal">
+      <p class="lead">Bukan sekadar membuat website. Saya ingin membuat sesuatu yang <span>punya karakter.</span></p>
+      <p>Saya menggunakan nama kreatif <b>MIKAL NOVA</b> sebagai identitas profile digital. “NOVA” menggambarkan ide baru, eksplorasi, dan proses berkembang.</p>
+      <p>Fokus saya saat ini adalah web development, database, programming, serta visual digital yang terasa modern dan profesional.</p>
+      <div class="quote">“LEARN. BUILD. EVOLVE.”</div>
+    </div>
+    <div class="terminal reveal">
+      <div class="term-top"><i></i><i></i><i></i><span>mikalnova@studio</span></div>
+      <div class="term-body">
+        <p><b>$</b> identity --show</p><strong>MIKAL NOVA</strong>
+        <p><b>$</b> role --current</p><strong>Creative Developer / Student</strong>
+        <p><b>$</b> focus --now</p><strong>Web · Database · Programming</strong>
+        <p><b>$</b> mindset</p><strong class="blink">Learning & Building_</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-section" id="work">
+  <div class="section-head reveal"><small>03 / SELECTED WORK</small><h2>THINGS<br><span>I BUILD.</span></h2></div>
+  <div class="filter-row reveal"><button class="active" data-filter="all">ALL</button><button data-filter="web">WEB</button><button data-filter="code">CODE</button><button data-filter="database">DATABASE</button></div>
+  <div class="works">
+    <article class="work featured reveal" data-cat="web database" data-id="bookmart">
+      <div class="visual book"><div class="browser"><div class="dots">● ● ●</div><strong>CBI<br>BOOKMART</strong><span>BOOKS / DATA / ORDERS</span></div></div>
+      <div class="meta">01 — WEB + DATABASE <b>↗</b></div><h3>CBI BOOKMART</h3><p>Website toko buku dengan PHP, MySQL, CRUD, kategori, pesanan, dan detail pesanan.</p><div class="tags"><i>PHP</i><i>MYSQL</i><i>CRUD</i></div>
+    </article>
+    <article class="work reveal" data-cat="code" data-id="python">
+      <div class="visual py"><div><small>PYTHON / DATA</small><pre>nilai = [85, 90, 78]
+
+rata = sum(nilai)
+       / len(nilai)
+
+print(rata)</pre></div></div>
+      <div class="meta">02 — CODE <b>↗</b></div><h3>STUDENT DATA</h3><p>Program nilai siswa dengan list, loop, percabangan, predikat, dan rata-rata.</p><div class="tags"><i>PYTHON</i><i>LIST</i></div>
+    </article>
+    <article class="work reveal" data-cat="web" data-id="portfolio">
+      <div class="visual web"><div class="window"><span></span><span></span><span></span><div class="mini-title">MIKAL<br><b>NOVA</b></div></div></div>
+      <div class="meta">03 — FRONT-END <b>↗</b></div><h3>PORTFOLIO SYSTEM</h3><p>Portfolio interaktif dengan animasi, responsive design, theme switcher, dan project filtering.</p><div class="tags"><i>HTML</i><i>CSS</i><i>JS</i></div>
+    </article>
+    <article class="work reveal" data-cat="database" data-id="database">
+      <div class="visual db"><div class="node a">users</div><div class="node b">books</div><div class="node c">orders</div><div class="node d">details</div><i class="line l1"></i><i class="line l2"></i><i class="line l3"></i></div>
+      <div class="meta">04 — DATABASE <b>↗</b></div><h3>DATA ARCHITECTURE</h3><p>Konsep tabel, primary key, foreign key, dan relasi untuk aplikasi berbasis data.</p><div class="tags"><i>MYSQL</i><i>SQL</i><i>RELATION</i></div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="section-head reveal"><small>04 / TOOLKIT</small><h2>MY<br><span>STACK.</span></h2></div>
+  <div class="skills">
+    <div class="skill-intro reveal"><p>Saya terus memperluas kemampuan melalui praktik, eksperimen, dan project nyata.</p><div class="circle"><img src="logo.png"><span class="s1">HTML</span><span class="s2">CSS</span><span class="s3">JS</span><span class="s4">PHP</span><span class="s5">SQL</span><span class="s6">PYTHON</span></div></div>
+    <div class="skill-bars">
+      <div class="skill reveal" data-p="88"><div><b>01</b><strong>HTML</strong><em>88%</em></div><i><span></span></i></div>
+      <div class="skill reveal" data-p="82"><div><b>02</b><strong>CSS</strong><em>82%</em></div><i><span></span></i></div>
+      <div class="skill reveal" data-p="72"><div><b>03</b><strong>JAVASCRIPT</strong><em>72%</em></div><i><span></span></i></div>
+      <div class="skill reveal" data-p="70"><div><b>04</b><strong>PHP</strong><em>70%</em></div><i><span></span></i></div>
+      <div class="skill reveal" data-p="68"><div><b>05</b><strong>MYSQL</strong><em>68%</em></div><i><span></span></i></div>
+      <div class="skill reveal" data-p="65"><div><b>06</b><strong>PYTHON</strong><em>65%</em></div><i><span></span></i></div>
+    </div>
+  </div>
+</section>
+
+<section class="section journey">
+  <div class="section-head reveal"><small>05 / PROCESS</small><h2>HOW I<br><span>WORK.</span></h2></div>
+  <div class="steps">
+    <div class="step reveal"><b>01</b><small>DISCOVER</small><h3>Understand</h3><p>Memahami tujuan dan masalah yang ingin diselesaikan.</p></div>
+    <div class="step reveal"><b>02</b><small>DESIGN</small><h3>Structure</h3><p>Menyusun alur, layout, data, dan pengalaman pengguna.</p></div>
+    <div class="step reveal"><b>03</b><small>BUILD</small><h3>Create</h3><p>Mengubah konsep menjadi kode yang dapat digunakan.</p></div>
+    <div class="step reveal"><b>04</b><small>EVOLVE</small><h3>Improve</h3><p>Menguji, memperbaiki, dan terus belajar dari project.</p></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-inner reveal">
+    <div class="section-head"><small>06 / LET'S CONNECT</small><h2>LET'S MAKE<br><span>SOMETHING.</span></h2></div>
+    <p>Kalau kamu punya ide website atau project digital, mari mulai dari sebuah percakapan.</p>
+    <a href="mailto:emailkamu@example.com" class="mail">emailkamu@example.com <b>↗</b></a>
+    <div class="socials"><a href="#">Instagram</a><a href="#">GitHub</a><a href="#">WhatsApp</a></div>
+  </div>
+</section>
+</main>
+
+<div class="modal" id="modal"><div class="backdrop"></div><div class="modal-box"><button id="close">×</button><small id="mcat"></small><h2 id="mtitle"></h2><p id="mdesc"></p><div id="mtech"></div></div></div>
+
+<footer><div><img src="logo.png"><b>MIKAL NOVA</b></div><span>© <i id="year"></i> — LEARN / BUILD / EVOLVE</span><a href="#home">BACK TO TOP ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
